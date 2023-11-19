@@ -2,7 +2,7 @@ name: Update Latest Videos
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight UTC (adjust as needed)
+    - cron: '30 5 * * *'  # Run every day at 5:30 AM IST
 
 jobs:
   youtube-workflow:
