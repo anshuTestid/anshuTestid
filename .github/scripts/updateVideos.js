@@ -1,7 +1,8 @@
 const { google } = require("googleapis");
 const fs = require("fs");
 
-const apiKey = process.env.YOUTUBE_API_KEY;
+// const apiKey = process.env.YOUTUBE_API_KEY;
+const apiKey = "AIzaSyBGIIio4k0PO5xrmGJJLp-J3UPNW1p6nlg";
 const channelId = "UCaYr5yxgOyk599Mnb3TGh-g"; // Replace with your YouTube channel ID
 const maxResults = 5;
 
