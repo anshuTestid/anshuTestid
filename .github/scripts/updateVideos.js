@@ -41,8 +41,8 @@ async function updateReadme(videos) {
     let readmeContent = fs.readFileSync(readmePath, "utf-8");
 
     // Find and replace the placeholder with the actual video information
-    const startTag = "";
-    const endTag = "";
+    const startTag = "<!-- latest-videos -->";
+    const endTag = "<!-- latest-videos-end -->";
     const startIdx = readmeContent.indexOf(startTag) + startTag.length;
     const endIdx = readmeContent.indexOf(endTag);
 
