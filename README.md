@@ -1,9 +1,3 @@
-
-* [How To Start An Open Source Project On GitHub? #opensource #github](https://www.youtube.com/watch?v=eNDuqcrLTLs)
-* [Build A Full-Stack Book Store With NextJS - Part 2 - Landing, Booklist, Sidebar, Layout, Navigation](https://www.youtube.com/watch?v=eX9KA48IZes)
-* [Build A Full-Stack Book Store With NextJS - Part 1 - Design](https://www.youtube.com/watch?v=bTBvoq3ww6Q)
-* [Better JS -  What Is The Best Way To Pad A String In JavaScript? #shorts #javascript #tapascript](https://www.youtube.com/watch?v=Wy37r57b-1Q)
-* [NextJS App Router Layouts and Navigations Explained With Code](https://www.youtube.com/watch?v=mAB5oAIIelA)
 ![Banner](https://media.licdn.com/dms/image/D5616AQGqULKfQUchEQ/profile-displaybackgroundimage-shrink_350_1400/0/1697104932324?e=1705536000&v=beta&t=VU7h3Z5gl5-9BueHGVp8odgRJRQxJraDRH50g_Y4jL0)
 
 [<img align="left" height="100" src="https://avatars.githubusercontent.com/u/145749994?s=200&v=4">](https://avatars.githubusercontent.com/u/145749994?s=200&v=4)
@@ -38,14 +32,9 @@ Join me on YouTube, where I pour years of gathered wisdom into empowering you. T
 # My YouTube Channel
 
 Check out my latest videos:
-
+<div>
 <!-- latest-videos -->
-* [How To Start An Open Source Project On GitHub? #opensource #github](https://www.youtube.com/watch?v=eNDuqcrLTLs)
-* [Build A Full-Stack Book Store With NextJS - Part 2 - Landing, Booklist, Sidebar, Layout, Navigation](https://www.youtube.com/watch?v=eX9KA48IZes)
-* [Build A Full-Stack Book Store With NextJS - Part 1 - Design](https://www.youtube.com/watch?v=bTBvoq3ww6Q)
-* [Better JS -  What Is The Best Way To Pad A String In JavaScript? #shorts #javascript #tapascript](https://www.youtube.com/watch?v=Wy37r57b-1Q)
-* [NextJS App Router Layouts and Navigations Explained With Code](https://www.youtube.com/watch?v=mAB5oAIIelA)
 <!-- latest-videos-end -->
-
+</div>
 
 </div>
