@@ -36,9 +36,4 @@ Join me on YouTube, where I pour years of gathered wisdom into empowering you. T
 Check out my latest videos:
 
 <!-- latest-videos -->
-* [How To Style An Element Based On Sibling Element&#39;s State? #tailwindcss #tips #shorts #tapascript](https://www.youtube.com/watch?v=-pXL09FnI6c)
-* [How To Start An Open Source Project On GitHub? #opensource #github](https://www.youtube.com/watch?v=eNDuqcrLTLs)
-* [Build A Full-Stack Book Store With NextJS - Part 2 - Landing, Booklist, Sidebar, Layout, Navigation](https://www.youtube.com/watch?v=eX9KA48IZes)
-* [Build A Full-Stack Book Store With NextJS - Part 1 - Design](https://www.youtube.com/watch?v=bTBvoq3ww6Q)
-* [Better JS -  What Is The Best Way To Pad A String In JavaScript? #shorts #javascript #tapascript](https://www.youtube.com/watch?v=Wy37r57b-1Q)
 <!-- latest-videos-end -->
