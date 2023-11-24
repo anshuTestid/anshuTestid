@@ -82,8 +82,8 @@
 const { google } = require("googleapis");
 const fs = require("fs");
 
-const apiKey = secrets.YOUTUBE_API_KEY;
-const channelId = secrets.YOUTUBE_CHANNEL_ID;
+const apiKey = process.env.YOUTUBE_API_KEY;
+const channelId = process.env.YOUTUBE_CHANNEL_ID;
 const maxResults = 5;
 
 const youtube = google.youtube({
