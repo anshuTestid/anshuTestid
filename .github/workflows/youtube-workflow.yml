@@ -61,8 +61,8 @@ jobs:
         run: |
           node .github/scripts/updateVideos.js
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_API_KEY: ${{ process.env.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: ${{ process.env.YOUTUBE_CHANNEL_ID }}
 
       - name: Commit and push changes
         run: |
