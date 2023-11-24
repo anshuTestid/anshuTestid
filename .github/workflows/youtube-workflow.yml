@@ -1,9 +1,44 @@
+# name: Update Latest Videos
+
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: '0 * * * *'  # Run every day at 5:30 AM IST
+
+# jobs:
+#   youtube-workflow:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '16'
+
+#       - name: Install dependencies
+#         run: |
+#           npm install googleapis
+
+#       - name: Fetch and update videos
+#         run: node .github/scripts/updateVideos.js
+
+#       - name: Commit and push changes
+#         run: |
+#           git config --global user.email "actions@github.com"
+#           git config --global user.name "GitHub Actions"
+#           git add README.md
+#           git commit -m "Update latest videos"
+#           git push https://${{ secrets.MY_SECRET_PAT }}@github.com/anshuTestid/anshuTestid.git
+
 name: Update Latest Videos
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  # Run every day at 5:30 AM IST
+    - cron: '0 * * * *' # Run every day at 5:30 AM IST
 
 jobs:
   youtube-workflow:
@@ -23,7 +58,11 @@ jobs:
           npm install googleapis
 
       - name: Fetch and update videos
-        run: node .github/scripts/updateVideos.js
+        run: |
+          node .github/scripts/updateVideos.js
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
 
       - name: Commit and push changes
         run: |
@@ -31,4 +70,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add README.md
           git commit -m "Update latest videos"
-          git push https://${{ secrets.MY_SECRET_PAT }}@github.com/anshuTestid/anshuTestid.git
+          git push
+
+
